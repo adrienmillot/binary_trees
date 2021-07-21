@@ -37,6 +37,7 @@ int binary_tree_is_leaf(const binary_tree_t *prmNode);
 int binary_tree_is_perfect(const binary_tree_t *prmTree);
 int binary_tree_is_root(const binary_tree_t *prmNode);
 size_t binary_tree_leaves(const binary_tree_t *prmTree);
+void binary_tree_levelorder(const binary_tree_t *prmTree, void (*prmFunc)(int));
 binary_tree_t *binary_tree_node(binary_tree_t *prmParent, int prmValue);
 size_t binary_tree_nodes(const binary_tree_t *tree);
 void binary_tree_postorder(const binary_tree_t *prmTree, void (*prmFunc)(int));
