@@ -36,5 +36,6 @@ binary_tree_t *binary_tree_node(binary_tree_t *prmParent, int prmValue);
 void binary_tree_postorder(const binary_tree_t *prmTree, void (*prmFunc)(int));
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_print(const binary_tree_t *);
+size_t binary_tree_size(const binary_tree_t *tree);
 
 #endif
