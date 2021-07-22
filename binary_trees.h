@@ -53,5 +53,6 @@ size_t binary_tree_size(const binary_tree_t *tree);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 bst_t *array_to_bst(int *prmArray, size_t prmSize);
 bst_t *bst_insert(bst_t **prmTree, int prmValue);
+bst_t *bst_search(const bst_t *prmTree, int prmValue);
 
 #endif
