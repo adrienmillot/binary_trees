@@ -34,6 +34,7 @@ size_t binary_tree_height(const binary_tree_t *tree);
 void binary_tree_inorder(const binary_tree_t *prmTree, void (*prmFunc)(int));
 binary_tree_t *binary_tree_insert_left(binary_tree_t *prmParent, int prmValue);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *prmParent, int prmValue);
+int binary_tree_is_bst(const binary_tree_t *prmTree);
 int binary_tree_is_full(const binary_tree_t *prmTree);
 int binary_tree_is_leaf(const binary_tree_t *prmNode);
 int binary_tree_is_perfect(const binary_tree_t *prmTree);
