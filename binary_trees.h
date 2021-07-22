@@ -2,6 +2,7 @@
 #define BINARY_TREES_H
 
 #include <stdlib.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -26,6 +27,7 @@ typedef struct binary_tree_s heap_t;
 
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *prmFirst, const binary_tree_t *prmSecond);
 int binary_tree_balance(const binary_tree_t *prmTree);
+int binary_tree_is_complete(const binary_tree_t *prmTree);
 void binary_tree_delete(binary_tree_t *prmTree);
 size_t binary_tree_depth(const binary_tree_t *prmTree);
 size_t binary_tree_height(const binary_tree_t *tree);
